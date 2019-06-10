@@ -1,24 +1,21 @@
 import React from 'react';
 import './App.css';
+import dummyData from './dummy-data';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+      dummyData: dummyData
+    }
+  }
+
+  render(){
+    console.log(dummyData)
+    return(
+      <h1>TEST</h1>
+    )
+  }
 }
 
-export default App;
+export default App
