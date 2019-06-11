@@ -11,6 +11,12 @@ const SearchBar = () => {
             <div>
                 <input type='text' placeholder='search' />
             </div>
+            <div className='icons-wrapper'>
+                <div className='icons'>
+                    <i className='fa fa-compass' />
+                </div>
+
+            </div>
         </div>
     )
 }
