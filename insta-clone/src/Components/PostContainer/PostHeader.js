@@ -3,8 +3,8 @@ import React from 'react';
 const PostHeader = props => {
     return(
         <div className='post-header'>
-            <img src={props.posts.thumbnailUrl} alt={props.posts.username} />
-            <h2>{props.posts.username}</h2>
+            <img src={props.post.thumbnailUrl} alt={props.post.username} />
+            <h2>{props.post.username}</h2>
         </div>
     )
 }
