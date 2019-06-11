@@ -5,8 +5,8 @@ import CommentSection from '../CommentSection/CommentSection';
 const PostContainer = props => {
     return(
        <div className='post-container'>
-           {props.posts.map(p => <Post key={p.imageUrl} post={p} />)}
-         
+           {/* {props.posts.map(item => (< item={item} />))} */}
+           <CommentSection />
         </div>
     )
 }

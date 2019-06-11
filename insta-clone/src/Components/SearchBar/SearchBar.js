@@ -1,5 +1,5 @@
 import React from 'react';
-import IGLogo from '';
+import IGLogo from '../../assets/instagram.png';
 import './SearchBar.css';
 
 const SearchBar = () => {
@@ -13,11 +13,17 @@ const SearchBar = () => {
             </div>
             <div className='icons-wrapper'>
                 <div className='icons'>
-                    <i className='fa fa-compass' />
+                    <i className='far fa-compass' />
                 </div>
-
+                <div className='icons'>
+                    <i className='far fa-heart' />
+                </div>
+                <div className='icons'>
+                    <i className='far fa-user' />
+                </div>
             </div>
         </div>
+        
     )
 }
 

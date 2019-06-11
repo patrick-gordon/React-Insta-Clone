@@ -3,7 +3,7 @@ import React from 'react';
 const CommentSection = props =>{
     return(
         <div className='comments'>
-            {props.comments}
+            <p>{props.comments}</p>
         </div>
     )
 }
