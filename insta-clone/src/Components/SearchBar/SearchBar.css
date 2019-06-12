@@ -1,0 +1,26 @@
+.search-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo{
+    height:25px;
+    width:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icons-wrapper{
+    display: flex;
+}

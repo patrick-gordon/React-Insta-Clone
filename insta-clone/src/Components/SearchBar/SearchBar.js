@@ -9,7 +9,7 @@ const SearchBar = () => {
                 <img src={IGLogo} className='logo' />
             </div>
             <div>
-                <input type='text' placeholder='search' />
+                <input type='search' placeholder='Search' />
             </div>
             <div className='icons-wrapper'>
                 <div className='icons'>

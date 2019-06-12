@@ -8,8 +8,12 @@ class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      posts: dummyData
+      posts: []
     }
+  }
+
+  componentDidMount(){
+    this.setState({posts: dummyData})
   }
 
   render(){
@@ -17,7 +21,7 @@ class App extends React.Component {
     return(
     <div className='App'>
        <SearchBar />
-       {/* <PostContainer posts={this.state.posts}/> */}
+       <PostContainer posts={this.state.posts}/>
     </div>
      
     );

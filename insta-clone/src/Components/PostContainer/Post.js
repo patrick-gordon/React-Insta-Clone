@@ -1,15 +1,13 @@
 import React from 'react';
 import PostHeader from './PostHeader';
-import CommentSection from '../CommentSection/CommentSection';
 
-const Post = props => {
+
+const PostHeader = props => {
     return(
-        <div className='post'>
-            <PostHeader posts={props.post} />
-            <img className='featured' src={props.post.imageUrl} alt={props.post.username} />
-            <CommentSection post={props.post} />
+        <div className='post-header'>
+            <img src={props.post.thumbnailUrl} alt={props.post.username} />
+            <h2>{props.post.username}</h2>
         </div>
     )
 }
-
-export default Post
+export default PostHeader
